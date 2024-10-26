@@ -16,8 +16,8 @@ index,movie_title,release_date,genre,MPAA_rating,total_gross,inflation_adjusted_
 """
 import pandas as pd
 
-directors_file = 'Desktop/Python/directors/disney_directors.csv'
-movies_file = 'Desktop/Python/directors/disney_movies_total_gross.csv'
+directors_file = 'Desktop/Python/directors/directors.csv'
+movies_file = 'Desktop/Python/directors/movies.csv'
 
 # Load the directors and movies CSV file
 df_directors = pd.read_csv(directors_file)
